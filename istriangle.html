@@ -6,24 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with Triangle</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Is Triangle?</h1>
+    <nav class="navigation">
+        <div class="brand-name">Fun with Triangles</div>
+        <ul class="non-bullet-items nav-pills">
+            <li class="list-inline-item">
+                <a class="links active-class" href="index.html">isTriangle</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="links" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="links" href="index.html">Area</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="links" href="hypotenuse.html">Hypotenous</a>
+            </li>
+        </ul>
+    </nav>
 
-    <label for="angle1">Angle1</label>
-    <input type="number" class="angle-input">
+    <main class="container">
+        <h1>Is Triangle?</h1>
 
-    <label for="angle2">Angle2</label>
-    <input type="number" class="angle-input">
+        <label for="angle1">Angle1</label>
+        <input type="number" class="angle-input">
 
-    <label for="angle3">Angle3</label>
-    <input type="number" class="angle-input">
+        <label for="angle2">Angle2</label>
+        <input type="number" class="angle-input">
 
-    <button id="is-triangle-btn">Is Triangle?</button>
+        <label for="angle3">Angle3</label>
+        <input type="number" class="angle-input">
 
-    <div class="output"></div>
+        <button id="submit-btn">Is Triangle?</button>
+
+        <div class="output"></div>
+    </main>
+    <footer class="footer">
+
+        <div class="heading">© | 2023 | Swathi</div>
+        <ul class="list">
+
+            <li class="list-inline-item">
+                <a href="https://github.com/swathiisb" class="footer-link" target="_blank">
+                    <img src="image/github.svg" alt="github">
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/swathisb/" class="links" target="_blank">
+                    <img src="image/linkedin.svg" alt="linkedin">
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://twitter.com/swathi_sb" class="links" target="_blank">
+                    <img src="image/twitter.svg" alt="">
+                </a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+
+
+    <script src="istriangle.js"></script>
+
 </body>
-<script src="istriangle.js"></script>
 
 </html>
