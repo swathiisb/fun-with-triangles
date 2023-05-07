@@ -1,5 +1,5 @@
 const inputValue = document.querySelectorAll(".input-value");
-const areaBtn = document.querySelector(".area-btn");
+const areaBtn = document.querySelector("#area-btn");
 const result = document.querySelector(".output");
 
 function calculateAreaOfTriangle(base, height){
