@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&family=Lato&family=Montserrat&display=swap');
+
+* {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6D326A;
+    --secondary-color: hsl(180, 100%, 100%);
+    --boxShadow: boxShadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.navigation {
+    margin: 10px auto 0 auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.3rem;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.navigation .list-inline-item {
+    display: inline;
+    padding: 0.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    font-size: large;
+    padding: 0rem 1rem;
+}
+
+.navigation .active-class {
+    font-weight: bold;
+}
+
+.nav-pills .links {
+    color: var(--secondary-color);
+}
+
+.nav-pills .links:hover {
+    color: var(--secondary-color);
+}
+
+.navigation .brand-name {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0.5rem 1rem;
+    font-family: cursive;
+}
+
+.header {
+    width: 95vw;
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem 0.3rem;
+}
+
+
+
+main {
+    margin: 0 0 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-label {
+    font-size: larger;
+    color: var(--primary-color);
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;
+    width: 256px;
+}
+
+.input-text {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    margin: auto;
+}
+
+button {
+    display: inline-block;
+    margin: 0.5rem;
+    width: fit-content;
+    padding: 5px;
+    font-family: "Advent Pro", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#submit-btn,
+#hypotenuse-btn,
+#area-btn {
+    width: 140px;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid black;
+    font: inherit;
+    padding: 1rem;
+    box-shadow: var(--boxShadow);
+    transition: all 0.3s;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    border-radius: 0.5rem;
+
+}
+
+#submit-btn:hover,
+#area-btn:hover,
+#hypotenuse-btn:hover {
+    background-color: var(--white);
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+.footer {
+    text-align: center;
+    margin: 2rem auto 10px auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer .list {
+    padding-inline-start: 0px;
+}
+
+.non-bullet-items {
+    list-style: none;
+}
+
+.list .list-inline-item {
+    display: inline;
+    padding: 1rem 1rem;
+}
+
+footer .links {
+    padding: 0.5rem 0.2rem;
+    display: inline-block;
+}
+
+a,
+img,
+li {
+    display: inline;
+    margin: 0.25rem;
+}
+
+img {
+    width: 40px;
+    padding: 1rem 0.2rem;
+}
